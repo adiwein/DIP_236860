@@ -1,0 +1,578 @@
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log_model:first model = 
+ConvLista_T(
+  (apply_A): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_B): Conv2d(1, 175, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_C): Sequential(
+    (0): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8))
+  )
+  (soft_threshold): SoftThreshold()
+)
+
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log_model:config_dict = {'uuid': 'DIP_project_gaussian_kernel=32_sigma=5', 'kernel_size': 11, 'stride': 8, 'num_filters': 175, 'lr': 0.0002, 'unfoldings': 12, 'lr_decay': 0.35, 'patch_size': 128, 'num_epochs': 250, 'lr_step': 50, 'eps': 0.001, 'threshold': 0.01, 'noise_std': 0.09803921568627451, 'gaussian_size': 32, 'gaussian_sigma': 5}
+
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:Training model...
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 21.347481592319912
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 21.76079488053349
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 22.249229162721853
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 22.70547892211091
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 22.609787768135824
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 23.154182933658973
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 23.427395037512934
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 23.490176592624618
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 23.326149244655642
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 23.625278222590296
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 23.55280503984954
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 23.673653021459803
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 23.58670644444139
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 23.864779044015357
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 23.65385364526689
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 23.943103191693325
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 23.824104982496436
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.06441619424293
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 23.798259814170308
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.096909505443232
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.131913625289304
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.158076366683318
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 23.950049083708354
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.03834309044797
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.303871275039153
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.282770093689106
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.269080054249088
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.317588200228737
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.129378424688152
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.32326145934295
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.132265298351413
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.18619576440496
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.3391798990251
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.29790223767517
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.27656066071914
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.43994407664433
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.402795780339524
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.47414686504036
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.261527618164084
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.35516493523089
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.29204357778785
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.47076367460419
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.370640470245764
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.492155546964415
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.30355512877731
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.46825074488541
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.33343353809277
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.539087051145895
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.37122434664881
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.601705128076564
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.640418848052263
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.6525645244414
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.761789185696035
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.649820257961043
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.60970644938711
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.693472297924316
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.448496165530646
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.665859934944397
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.67346837268623
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.646116282833155
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.718468813077575
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.623347645153117
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.647348585742144
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.615828318225113
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.65378976369817
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.649350263724468
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.859657007530362
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.732358121041734
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.645511912033506
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.702513262953374
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.15119898047468
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.672513113110384
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.4038154240237
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.676457480360586
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.612546865748516
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.728854001798833
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.57961467803591
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.741945970543163
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.692447640198054
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.714744176078682
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.660961679828276
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.759698563083507
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.81265181033375
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.73720537308871
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.86443022088535
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.758944750307162
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.78832372863138
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.646484842759484
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.913317331353156
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.769139529244146
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.000904151701086
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.758300929204715
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.82964498465928
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.78469068600798
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.670765099063864
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.751800870210886
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.719319251538987
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.774649605033286
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.094273962087826
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.79468345673815
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.018010607295924
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.79026854092833
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.005197861019145
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.8086239173311
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.910455654959307
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.79908114576522
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.94434765426962
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.81161703472343
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.740197678118985
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.83820448627966
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.727144710784582
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.819145681221137
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.894371348560988
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.820161934013417
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.808354587710614
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.83777916010629
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.84737482123309
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.82327431607852
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.978811363566262
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.825190822194752
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.013602556294185
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.797970756708636
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.75395121456397
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.833618393249804
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.952932571893523
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.839173010863803
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.914462414110133
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.806746471738332
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.13292075071398
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.834569553898714
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.002036373816477
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.851783156500773
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.283205213773975
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.806381073700816
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.72253380122773
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.812906783970977
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.703604669620088
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.844250003568817
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.673649094067148
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.852584716507756
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.02603107651965
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.845745573381958
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.720227054252003
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.849811970831727
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.053789042973506
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.86437863245871
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.933302199654186
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.831421967305342
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.07426609457025
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.86305807522297
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.207035457777614
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.869721197718988
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.742048213955332
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.879201964345654
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.143923905378003
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.861006690649248
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.104147454639104
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.87434672603832
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.866491887959473
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.88025522613277
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.859417315832033
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.875777265626542
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.28136646644769
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.874373542302244
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.05901606269958
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.847631926441412
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.902397657293697
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.87333113080326
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.873716270874137
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.87601984608878
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.810812869428926
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.88785750288818
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.020719499987695
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.879380614318706
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.01657901889515
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.887480434075215
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.78539868784928
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.84782887099903
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.007268979862303
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.884921538096606
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.872375274075086
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.879217307072704
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.92212295177395
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.885060906342577
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.33819040180783
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.864522624522586
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.08537945984729
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.876120203076425
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.17087229652855
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.875155039484977
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.917317390360985
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.873892151157094
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.084522878215516
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.880304120064352
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.153680409972537
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.890042928815802
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.733286057587872
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.89685853584051
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.963237407527853
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.894494192033772
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.97919557345462
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90154362725492
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.77500065799912
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.899643952195873
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.90024288871829
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.899280589286885
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.29470145517894
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.901558496438973
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.995723578820154
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.887829249458825
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.863190309741984
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.898698068668068
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.815169807461846
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90151877096441
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.684108989417794
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.895768290729556
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.630006826923776
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90145994883302
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.07191828064557
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.888500640197464
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.063506265003767
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.898365093367524
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.861475185090562
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.900435756980905
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.769575011045692
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90134947579127
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.087897367839133
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.900218647242497
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.068625548656442
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.899801993392945
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.066400367226304
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.897810898577504
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.132615831119736
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.89898731899063
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.72413920355361
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90585299121835
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.417510687054698
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.905195684560418
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.27280014243424
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.89814231267494
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.03350079882779
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.890627213766468
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.917492062893395
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.906281476455746
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.996388802158616
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.894090703971354
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.0757709963096
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90125659462178
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.136533216990674
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90231555855957
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.092126438587037
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.906008037232077
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.057297806037678
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90181102743118
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.037113843774794
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.903987237649122
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.95463349753916
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.904440342993016
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.02042231122483
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.899838192618205
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.282550554498876
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90678922167103
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.0880817345445
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.904551636552352
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.03568200746769
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90515038027953
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.550057200482627
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.908225762907918
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.15727617271447
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.900974484390265
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.159835082343232
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.902989331487532
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.183103979779748
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.906992040650618
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.105486721897535
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.905626872571112
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.00415545054171
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.900806141636807
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.26512460717423
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90757517129226
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.95047036664195
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91019404332008
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.284315982990652
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.903643976876086
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.86347963753139
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.905980064143506
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.18198835038132
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.9024640546858
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.14726666507413
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.908990397091852
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.09618378518753
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90980284417076
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.960544588922687
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90192061296632
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.15315324573973
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.907451125880602
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.959022248616673
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90984494865045
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.000050477723168
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.906673929186493
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.7827539026316
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909026569835493
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.516081905172644
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910632827622855
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.127456515114616
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91140832561379
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.225008679837472
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.9087389548227
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.916947916109113
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909781210026175
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.080579308223022
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.908917025797876
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.879581978866668
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909284752979737
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.85970475292017
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91026583963236
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.95625041963347
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90675653223731
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.063485664989674
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.9088901865786
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.170968137170536
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910923918990235
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.181955457545946
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90975502209367
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.912503166099043
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91055730282321
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.866324605932668
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909116406259926
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.833139317119944
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.908452550655515
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.311791619891203
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.908135346146153
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.050580344614367
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909904807456602
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.208305757218465
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.912029203562163
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.580138895917404
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.911213687292797
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.748159646160335
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909404720398555
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.00253814863178
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.911362568380625
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.031984025275396
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91056420077245
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.75334620019009
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.907782694266896
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.081094460972974
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910392813838865
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.104836984309145
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91100102581721
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.16491305665742
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.911570580153395
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.32800753971267
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.908563902478928
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.95196343681024
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910884675758993
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.204996666049986
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910672544847458
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.98514667718342
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.911410392064987
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.254927223732214
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.911628383781295
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.18107000507503
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91121129032385
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.380287205916197
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.911268886952513
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.296588310390938
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910023049399957
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.108506117554544
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909357816595953
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.970885094259852
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910202496048807
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.12524739876682
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91144803732976
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.01257652915626
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910390267209987
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.03403193145747
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909064376080813
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.092833562717228
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91060896633898
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.26111176520673
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.9093560489611
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.322626046328047
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909484300488668
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.244629739112533
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909226593630574
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.04226478264995
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909418268083215
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.037373500997976
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.908750748486703
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.09556574739126
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909765498319217
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.098626272614798
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909663322079634
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.030586680142427
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91097637939107
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.039287158130424
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90976879374049
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.903539758699242
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910908640976302
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.900968245588366
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90975187127732
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.94966718853903
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91020698579813
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.906399114877416
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910399832313708
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.182468582464924
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910061616399428
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.73865212767158
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910248070543776
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.133373260201793
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.909674019719496
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.341118735719718
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91024155435181
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.93364778318657
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91012801472627
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.928325797973944
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910571905757475
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.089870902680538
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91011469841972
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.79314713923958
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90985128837178
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.23275846772509
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91050977484209
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.963293194181137
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910623661690902
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.206102329107843
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90991342699359
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.97407491780137
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910147557814017
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.179189810802047
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910508933857976
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.93726307328961
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.90993257110049
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.7156080405635
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.911032886365543
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.982655161776172
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91136611359097
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.93893772262792
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910844952425002
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.80190048145957
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910396150451998
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.113465538274774
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910577381705895
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.925197383800107
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91093832326267
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.161794476908042
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910520391510683
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.14205183987997
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.911144057283206
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.0097415712959
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.911324022697155
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.90150932340732
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91055112898221
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.226578907307815
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91068712487732
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.97461202214365
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91089145512703
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.161383185227603
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91117803010138
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.054678627175406
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91104860696339
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.892665258849554
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910900796759968
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.123978085678367
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910721533316583
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.141257299136328
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910732960412098
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.23436914715267
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91046710065561
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.497526662903987
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910837712262317
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.916283253257166
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910375140193686
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.8922974962606
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91095664550223
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.165373106154863
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910257868885058
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.234564370210567
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91069444129217
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.844441631638567
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910528170260108
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.021405380746508
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910396354917378
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.014652075411963
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910677548957235
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.181710896892955
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.911118857841142
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.203043355681203
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910930142821282
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.145658802733653
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.91053664724726
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.02170956863387
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910639655860024
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 25.101787477444216
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910531640780558
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.925172463705557
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910535563902048
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:train PSNR: 24.85652476502708
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:test PSNR: 24.910738784353935
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log_model:first model = 
+ConvLista_T(
+  (apply_A): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_B): Conv2d(1, 175, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_C): Sequential(
+    (0): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8))
+  )
+  (soft_threshold): SoftThreshold()
+)
+
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log_model:config_dict = {'uuid': 'DIP_project_gaussian_kernel=32_sigma=5', 'kernel_size': 11, 'stride': 8, 'num_filters': 175, 'lr': 0.0002, 'unfoldings': 12, 'lr_decay': 0.35, 'patch_size': 128, 'num_epochs': 250, 'lr_step': 50, 'eps': 0.001, 'threshold': 0.01, 'noise_std': 0.09803921568627451, 'gaussian_size': 32, 'gaussian_sigma': 5}
+
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:Training model...
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log_model:first model = 
+ConvLista_T(
+  (apply_A): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_B): Conv2d(1, 175, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_C): Sequential(
+    (0): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8))
+  )
+  (soft_threshold): SoftThreshold()
+)
+
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log_model:config_dict = {'uuid': 'DIP_project_gaussian_kernel=32_sigma=5', 'kernel_size': 11, 'stride': 8, 'num_filters': 175, 'lr': 0.0002, 'unfoldings': 12, 'lr_decay': 0.35, 'patch_size': 128, 'num_epochs': 250, 'lr_step': 50, 'eps': 0.001, 'threshold': 0.01, 'noise_std': 0.09803921568627451, 'gaussian_size': 32, 'gaussian_sigma': 5}
+
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:Training model...
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log_model:first model = 
+ConvLista_T(
+  (apply_A): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_B): Conv2d(1, 175, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_C): Sequential(
+    (0): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8))
+  )
+  (soft_threshold): SoftThreshold()
+)
+
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log_model:config_dict = {'uuid': 'DIP_project_gaussian_kernel=32_sigma=5', 'kernel_size': 11, 'stride': 8, 'num_filters': 175, 'lr': 0.0002, 'unfoldings': 12, 'lr_decay': 0.35, 'patch_size': 128, 'num_epochs': 250, 'lr_step': 50, 'eps': 0.001, 'threshold': 0.01, 'noise_std': 0.09803921568627451, 'gaussian_size': 32, 'gaussian_sigma': 5}
+
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:Training model...
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log_model:first model = 
+ConvLista_T(
+  (apply_A): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_B): Conv2d(1, 175, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_C): Sequential(
+    (0): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8))
+  )
+  (soft_threshold): SoftThreshold()
+)
+
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log_model:config_dict = {'uuid': 'DIP_project_gaussian_kernel=32_sigma=5', 'kernel_size': 11, 'stride': 8, 'num_filters': 175, 'lr': 0.0002, 'unfoldings': 12, 'lr_decay': 0.35, 'patch_size': 128, 'num_epochs': 250, 'lr_step': 50, 'eps': 0.001, 'threshold': 0.01, 'noise_std': 0.09803921568627451, 'gaussian_size': 32, 'gaussian_sigma': 5}
+
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:Training model...
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log_model:first model = 
+ConvLista_T(
+  (apply_A): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_B): Conv2d(1, 175, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_C): Sequential(
+    (0): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8))
+  )
+  (soft_threshold): SoftThreshold()
+)
+
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log_model:config_dict = {'uuid': 'DIP_project_gaussian_kernel=32_sigma=5', 'kernel_size': 11, 'stride': 8, 'num_filters': 175, 'lr': 0.0002, 'unfoldings': 12, 'lr_decay': 0.35, 'patch_size': 128, 'num_epochs': 250, 'lr_step': 50, 'eps': 0.001, 'threshold': 0.01, 'noise_std': 0.09803921568627451, 'gaussian_size': 32, 'gaussian_sigma': 5}
+
+INFO:logs/DIP_log_model_gaussian_kernel=32_sigma=5.log:Training model...

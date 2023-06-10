@@ -1,0 +1,2013 @@
+INFO:logs/DIP_log_sinc_kernel.log_model:first model = 
+ConvLista_T(
+  (apply_A): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_B): Conv2d(1, 175, kernel_size=(11, 11), stride=(8, 8), bias=False)
+  (apply_C): Sequential(
+    (0): ConvTranspose2d(175, 1, kernel_size=(11, 11), stride=(8, 8))
+  )
+  (soft_threshold): SoftThreshold()
+)
+
+INFO:logs/DIP_log_model_param_test.log_model:config_dict = {'uuid': 'DIP_project_sinc', 'kernel_size': 11, 'stride': 8, 'num_filters': 175, 'lr': 0.0002, 'unfoldings': 12, 'lr_decay': 0.35, 'patch_size': 128, 'num_epochs': 250, 'lr_step': 50, 'eps': 0.001, 'threshold': 0.01, 'noise_std': 0.09803921568627451, 'sinc_size': 128}
+
+INFO:logs/DIP_log_sinc_kernel.log:Training model...
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 0, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 28.120528139647117
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 0, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 29.17118214857149
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 1, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 29.16510579656131
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 1, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 29.515642375428747
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 2, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 29.815792944702824
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 2, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 29.66193125233083
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 3, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 29.729994123417406
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 3, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 29.723924836600176
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 4, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.096448530937636
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 4, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 29.645773209767803
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 5, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 29.523390798921657
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 5, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 29.90312174872646
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 6, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.52325612687518
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 6, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 29.999740647826883
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 7, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.375482026050037
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 7, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.08061318042132
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 8, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.36812482046076
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 8, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.128598529642392
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 9, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.457976269605247
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 9, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 29.956665101315618
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 10, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.676724119448856
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 10, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.25399968310048
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 11, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.61498119130266
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 11, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.24996751964929
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 12, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.97050561595301
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 12, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.361873918735615
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 13, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.64275179639212
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 13, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.31460123736362
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 14, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.396757028458165
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 14, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.296546798537996
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 15, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.45358527092456
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 15, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.4374193108511
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 16, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.829117616769473
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 16, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.59345674010988
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 17, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.80382902078194
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 17, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.60824739918058
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 18, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.856536877107406
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 18, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.283872904177777
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 19, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.842478660958804
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 19, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.68569415105826
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 20, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.338676440694922
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 20, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.656497041203444
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 21, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.919690972082403
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 21, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.748068201467404
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 22, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.028911761779206
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 22, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.69211542345387
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 23, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.009090116429913
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 23, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.820713696392584
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 24, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.346721059657735
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 24, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.604083812657503
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 25, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.12374466446817
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 25, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.91942963358446
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 26, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.315917533136577
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 26, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.93256721037341
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 27, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.596930931618207
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 27, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.955690931288608
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 28, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.042864712383064
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 28, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.948335383209162
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 29, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.576733280269014
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 29, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.993330256413522
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 30, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.12153899802773
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 30, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 30.89710312082553
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 31, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.374847286987787
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 31, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.00501670145514
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 32, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.272955126330356
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 32, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.014500335483223
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 33, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.20051873392332
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 33, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.040716186668607
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 34, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.58659195628258
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 34, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.054868760510804
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 35, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.532258654433114
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 35, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.074390430380056
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 36, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 30.949814474766825
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 36, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.05707445930453
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 37, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.319049841600304
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 37, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.088839661287338
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 38, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.172468666932083
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 38, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.1186339666861
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 39, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.233485642172763
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 39, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.119831826630357
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 40, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.634603970424227
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 40, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.137378731892984
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 41, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.639489199630205
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 41, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.097374502091217
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 42, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.56657549408027
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 42, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.117398361343096
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 43, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.623346193238564
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 43, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.16797713754636
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 44, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.57416588057666
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 44, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.162968752562772
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 45, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.60193625916215
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 45, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.174076618081678
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 46, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.553797573929163
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 46, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.205665226311815
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 47, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.71300342738574
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 47, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.220182648041828
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 48, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.54622197581747
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 48, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.200965526365287
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 49, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.72709459657572
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 49, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.221258913142407
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 50, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.647489034318966
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 50, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.25728120891077
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 51, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.82689897836878
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 51, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.25865589424242
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 52, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.44446271524395
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 52, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.260206152927193
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 53, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.802635163192434
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 53, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.263741888219194
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 54, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.432036561463597
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 54, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.24696152443164
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 55, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.822435672018965
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 55, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.27933543854378
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 56, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.46539382766212
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 56, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.263913494968005
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 57, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.70006793522971
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 57, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.279758716290136
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 58, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.905721331318187
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 58, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.2752768045678
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 59, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.765997048422488
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 59, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.293557038286615
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 60, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.64777901752239
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 60, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.29603658096104
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 61, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.733151840072843
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 61, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.294504058622383
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 62, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.708913516086962
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 62, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.30511734027541
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 63, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.627615602066506
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 63, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.302574800684244
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 64, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.581085225133883
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 64, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.324169207517357
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 65, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.725643391924475
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 65, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.319809374929793
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 66, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.849417826423128
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 66, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.336105752554506
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 67, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.77576867981725
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 67, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.337849210463546
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 68, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.724388178325405
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 68, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.32071689948435
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 69, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.64882123112259
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 69, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.34382464270725
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 70, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.908461871694964
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 70, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.331966287155577
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 71, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.676490509681127
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 71, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.349978792343943
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 72, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.68213150551687
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 72, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.354423831063272
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 73, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.688301619708614
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 73, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.369927285154382
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 74, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.981111477238812
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 74, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.360316267037092
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 75, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.37948479153144
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 75, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.37365332677366
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 76, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.76645403190115
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 76, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.375530404801253
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 77, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.03071953551211
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 77, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.37584810987956
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 78, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.894105143783417
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 78, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.378277966855393
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 79, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.852159276375406
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 79, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.378871307040164
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 80, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.816479769970066
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 80, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.370366419183302
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 81, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.88502817938587
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 81, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.386309745291147
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 82, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.7355693142744
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 82, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.386015981720426
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 83, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.921556558202845
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 83, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.384932570012392
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 84, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.686507853827102
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 84, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.39076117163731
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 85, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.77098576726489
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 85, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.386141015872052
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 86, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.91088449740351
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 86, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.388571166405903
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 87, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.88739156507042
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 87, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.39593013175391
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 88, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.0161434115301
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 88, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.400105090254602
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 89, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.746389546878802
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 89, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.40187460532681
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 90, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.813102292352806
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 90, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.399496921152686
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 91, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.463850289080046
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 91, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.395464361827962
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 92, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.877531973326278
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 92, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.404952213745787
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 93, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.06737208773987
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 93, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.407907590190266
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 94, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.650551636693503
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 94, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.40845893765432
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 95, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.180303990598
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 95, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.411671751086683
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 96, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.677656979559295
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 96, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.410659120332372
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 97, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.09773130890522
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 97, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.398141443890864
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 98, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.710855030429098
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 98, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.410493390558912
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 99, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.841377391214518
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 99, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.41075671325723
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 100, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.590895766094192
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 100, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.418585613994665
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 101, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.81302910490592
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 101, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.42026124580949
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 102, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.603430230821612
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 102, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.422521046563862
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 103, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.862899063160516
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 103, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.424575715390702
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 104, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.95092303243907
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 104, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.421669813597926
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 105, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.276000065430026
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 105, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.42192994249376
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 106, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.808043824776473
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 106, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.425229706935898
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 107, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.67713922650915
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 107, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.42491611338036
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 108, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.799413286981807
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 108, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.423397213427712
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 109, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.810399473475552
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 109, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.42548465393195
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 110, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.701415349186043
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 110, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.419520938944228
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 111, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.595880489365296
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 111, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.424059739837837
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 112, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.706615829686434
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 112, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.42899021613121
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 113, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.748279564988856
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 113, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.42805186617731
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 114, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.710128178125824
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 114, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.427359545830573
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 115, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.98343200725635
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 115, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.426767641705055
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 116, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.635612939692084
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 116, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.423378499648713
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 117, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.96044114448217
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 117, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.42886773680098
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 118, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.372279065763394
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 118, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.429344521707442
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 119, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.723997537035633
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 119, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.431582925147456
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 120, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.90637795747432
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 120, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.432356620539025
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 121, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.95608976010507
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 121, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.432825053008166
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 122, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.932421706605616
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 122, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.433861052443195
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 123, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.06486908698876
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 123, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.43419150519275
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 124, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.815885556221854
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 124, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.431956488539694
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 125, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.775929024344993
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 125, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.433797464620156
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 126, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.124459141806064
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 126, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.43546285089049
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 127, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.34051243346317
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 127, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.437681210894585
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 128, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.69024489960638
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 128, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.43616105417058
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 129, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.790067422689873
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 129, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.434742576717092
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 130, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.76626448197851
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 130, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.438161472418788
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 131, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.925824705802274
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 131, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.43866497708856
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 132, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.73533342909476
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 132, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.437556795119978
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 133, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.892190850143066
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 133, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.43654595426745
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 134, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.809979267660765
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 134, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.43785677043477
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 135, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.667287558222974
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 135, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.43708004220875
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 136, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.8293720739356
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 136, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.438432330937797
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 137, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.738957241415857
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 137, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.4383737040319
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 138, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.76402980989981
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 138, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.438549374592213
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 139, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.890104977821306
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 139, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.438075769730826
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 140, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.75242154873682
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 140, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.439488125947726
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 141, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.829690828088538
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 141, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.439989599227054
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 142, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.581968309450456
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 142, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.438454878942434
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 143, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.6534904737737
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 143, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.438770197794526
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 144, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.63229231710784
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 144, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.438869392515464
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 145, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.754502450493465
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 145, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.439724747693095
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 146, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.82497779029237
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 146, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.43926892619517
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 147, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.825306833346573
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 147, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.43986651700362
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 148, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.48753798738871
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 148, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.441140504152326
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 149, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.89103737763311
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 149, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44147085129688
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 150, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.709294303551793
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 150, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44132073086736
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 151, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.735539006551686
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 151, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.441180949040806
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 152, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.570641025708877
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 152, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.442025543668457
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 153, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.72758543400596
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 153, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.440075089048463
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 154, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.79832161747936
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 154, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.440753535692647
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 155, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.859008282861634
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 155, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.440861398040898
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 156, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.83494515712641
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 156, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.441528315475512
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 157, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.856398560558027
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 157, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.441309579559668
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 158, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.551461203528678
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 158, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.441509701646115
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 159, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.715459894109436
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 159, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.441548443649587
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 160, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.82141138735097
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 160, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.442428515656918
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 161, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.90018373637727
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 161, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44202718822512
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 162, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.921022241772068
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 162, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44230815754269
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 163, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.831696615533886
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 163, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44240584112441
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 164, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.797877372219837
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 164, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44256000260623
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 165, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.722056872141902
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 165, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44196272926459
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 166, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.698069138529206
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 166, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.442161599086837
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 167, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.72764488116866
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 167, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44248073573069
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 168, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.11546122350398
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 168, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.441712369488915
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 169, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.913448319030724
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 169, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44239972376795
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 170, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.75191234765756
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 170, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44263419600775
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 171, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.972705483030314
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 171, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.443478717017296
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 172, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.880080941426396
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 172, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444007866016165
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 173, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.820909285101145
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 173, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44280508103271
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 174, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.90563663582988
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 174, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.442952790697905
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 175, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.670871917919403
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 175, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.443038914800415
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 176, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.511449108991037
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 176, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44281540664744
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 177, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.67353046764774
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 177, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.442702410530828
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 178, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.152005788948635
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 178, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44259106762973
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 179, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.05917540015991
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 179, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.442866047740683
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 180, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.78119327858591
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 180, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.442778707064896
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 181, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.740416221311044
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 181, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44300264531599
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 182, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.697844154856195
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 182, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.442929562878376
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 183, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.723295231697193
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 183, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44307748124761
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 184, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.801690810786663
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 184, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44344384780709
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 185, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.09974601591905
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 185, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.443439826571595
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 186, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.945514835285
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 186, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44344600309483
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 187, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.624995747632592
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 187, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44361020832272
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 188, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.789688709898034
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 188, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44357067506557
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 189, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.945409002322293
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 189, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.443974459328487
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 190, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.2896248066007
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 190, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44382986041299
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 191, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.546419796361125
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 191, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444019737110633
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 192, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.010816185790006
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 192, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44404552888419
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 193, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.80116738662167
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 193, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444339357921656
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 194, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.93640777041313
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 194, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44417130641209
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 195, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.998344794640385
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 195, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44415717950804
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 196, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.765170412999947
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 196, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44414387988762
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 197, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.873372591433412
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 197, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444255873088764
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 198, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.09986132633904
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 198, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444343738105857
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 199, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.709649172472833
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 199, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444291493887
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 200, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.691294570410168
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 200, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444372203742674
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 201, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.782173082242075
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 201, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444565150351522
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 202, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.741278313141155
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 202, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444546941019652
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 203, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.774658210807946
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 203, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44453935872682
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 204, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.802359515156688
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 204, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444559049702093
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 205, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.87561934237176
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 205, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444414302919736
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 206, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.92551160419643
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 206, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44445597170465
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 207, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.698972427565668
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 207, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44444152193142
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 208, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.74483331602238
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 208, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444411098353505
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 209, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.71361297218372
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 209, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444435104383576
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 210, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.864933948515226
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 210, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444431419040953
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 211, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.942505317451598
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 211, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44449570134729
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 212, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.64272447080743
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 212, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44444876030043
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 213, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.937948395836035
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 213, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444578964719707
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 214, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.825397281655917
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 214, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44455606814513
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 215, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.82521523693511
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 215, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.4445359657922
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 216, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.608060179084816
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 216, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444651463281588
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 217, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.13046992444311
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 217, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444711965740847
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 218, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.96642791508539
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 218, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44491596048703
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 219, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.95063212887387
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 219, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444805591640957
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 220, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.760279244423874
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 220, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444830066015417
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 221, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.85825773563879
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 221, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444790148067916
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 222, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.760991144185684
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 222, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444783290184805
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 223, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.678206745166193
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 223, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444767893827233
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 224, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.745572165777617
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 224, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44479738858892
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 225, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.828010399953577
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 225, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444830910339366
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 226, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.89504337391804
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 226, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444806205972775
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 227, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.92857898376243
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 227, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444813001708635
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 228, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.87183236581768
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 228, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44480284174593
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 229, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.93906111236135
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 229, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444793152709273
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 230, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.01194243750661
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 230, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444773361070673
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 231, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.96911548886448
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 231, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44476774860497
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 232, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.706467576582074
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 232, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444767421127125
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 233, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.01542157520241
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 233, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444765792672086
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 234, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.73662251192921
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 234, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44475817800572
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 235, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.793450482862806
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 235, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44484092003557
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 236, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.607473779614367
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 236, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44481161031199
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 237, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.550504845839058
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 237, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444815507778298
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 238, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 32.10406816787721
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 238, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444845997485913
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 239, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.813330557666823
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 239, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444772988802765
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 240, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.90168258122888
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 240, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44477962049886
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 241, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.794079881734863
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 241, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444810265927305
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 242, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.83013330347135
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 242, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444814947579214
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 243, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.790537381533415
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 243, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444814688696404
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 244, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.916826076887617
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 244, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44479375826271
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 245, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.58434862594513
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 245, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44480492649465
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 246, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.561368637681998
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 246, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.4448148582491
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 247, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.718530664539013
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 247, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444848212455994
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 248, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.56698023328727
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 248, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.444776576059468
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 249, model_params = 
+<generator object Module.parameters at 0x7fa86a394200>
+
+INFO:logs/DIP_log_sinc_kernel.log:train PSNR: 31.740765370713824
+INFO:logs/DIP_log_sinc_kernel.log_model:epoch = 249, model_params = 
+<generator object Module.parameters at 0x7fa86a394270>
+
+INFO:logs/DIP_log_sinc_kernel.log:test PSNR: 31.44485870322316
